@@ -3,14 +3,23 @@ import "./App.css"
 import cardsData from "./assets/cardsData";
 
 import Card from "./components/card";
+import Home from "./components/home";
+import Navbar from "./components/navbar";
+
+// import "../styles/navbar.css"
+
+
 
 function App() {
 
   return (
     <>
+    <Navbar/>
 
-      /* Add components here */
-
+    <section id="home">
+    <Home/>
+    </section>
+  
       <h1> Projects</h1>
       <div className="projects">
 
